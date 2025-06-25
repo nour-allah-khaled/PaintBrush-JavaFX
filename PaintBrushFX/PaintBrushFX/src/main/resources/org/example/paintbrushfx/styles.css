@@ -1,0 +1,81 @@
+/* Color picker */
+.color-picker {
+    -fx-background-color: #E6F0FA; /* Light baby blue */
+    -fx-background-radius: 5;
+}
+.color-picker .color-picker-label {
+    -fx-text-fill: #666666; /* Gray text */
+}
+
+/* Default button style */
+.jfx-button {
+    -fx-background-color: #E6F0FA; /* Light baby blue */
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+    -fx-text-fill: #666666; /* Gray text */
+    -fx-font-size: 12; /* Font size */
+    -fx-padding: 0; /* Remove padding to respect set size */
+}
+
+/* Hover state for buttons */
+.jfx-button:hover {
+    -fx-background-color: #D1E3F6; /* Slightly darker baby blue on hover */
+}
+
+/* Active button style (dark baby blue) */
+.jfx-button.active-button {
+    -fx-background-color: #4682B4 !important; /* Dark baby blue */
+    -fx-text-fill: white !important; /* White text for contrast */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2); /* Slightly stronger shadow */
+}
+
+/* Slider styles */
+.jfx-slider .track {
+    -fx-background-color: #D1E3F6; /* Slightly darker baby blue */
+    -fx-pref-height: 6;
+}
+.jfx-slider .colored-track {
+    -fx-background-color: #C4D9F1; /* Medium baby blue */
+}
+.jfx-slider .thumb {
+    -fx-background-color: #E6F0FA; /* Light baby blue */
+    -fx-effect: dropshadow(gaussian, #E6F0FA, 5, 0.5, 0, 0);
+}
+.jfx-slider .thumb:hover {
+    -fx-background-color: #D1E3F6; /* Slightly darker baby blue */
+}
+
+/* Checkbox */
+.jfx-check-box {
+    -fx-font-size: 12;
+    -fx-text-fill: #666666; /* Gray text */
+}
+
+/* Font icons */
+.font-icon {
+    -fx-icon-color: #4D4D4D; /* Dark gray icons */
+    -fx-icon-size: 16;
+    -fx-opacity: 0.9;
+}
+.font-icon:hover {
+    -fx-icon-color: #333333; /* Darker gray on hover */
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+/* Color square (for color buttons) */
+.color-square {
+    -fx-background-radius: 0; /* Ensure it's a square */
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-padding: 0; /* Remove padding */
+}
+
+/* Section box */
+.section-box {
+    -fx-border-color: transparent #ddd transparent transparent; /* Border between sections */
+    -fx-border-width: 0 1 0 0; /* Right border only */
+}
+.section-box:last-child {
+    -fx-border-width: 0; /* Remove border for the last section */
+}
