@@ -25,7 +25,7 @@ A modern, interactive desktop drawing application built using *JavaFX, enhanced 
 ---
 ## 🚀 How to Run?
 1. Clone the repository  
-   git clone https://github.com/AbdoHamdy15/PaintBrush-JavaFX.git
+   git clone https://nour-allah-khaled.github.io/PaintBrush-JavaFX/
 2. Open the project in IntelliJ IDEA or any Java IDE
 3. Make sure JavaFX libraries are properly set up
 4. Run the PaintBrush class from org.example.paintbrushfx
