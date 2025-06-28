@@ -1,6 +1,3 @@
-# PaintBrush-JavaFX
-A simple JavaFX-based paint application that allows users to draw, erase, and customize brush tools.
-
 # 🎨 Paint Brush – JavaFX Drawing App
 A modern, interactive desktop drawing application built using *JavaFX, enhanced with **JFoenix, **Ikonli, and custom **CSS styling. This project was developed as part of the **Software Testing track at ITI* to explore GUI development, user interaction, and Java OOP principles.
 
